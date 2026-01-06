@@ -8,3 +8,7 @@ https://www.youtube.com/watch?v=WBYnp2NAGiE
 https://www.instagram.com/romansuk05/reel/DLpOciDirai/
 
 <p>Enjoy your journy with Rapouk!</p>
+
+![IMG_2600](https://github.com/user-attachments/assets/72c75759-8331-4b1a-9e3b-466f38d58742)
+![IMG_2605](https://github.com/user-attachments/assets/fe22f549-9f5a-4c9b-a8a3-6ce9f308f99d)
+![IMG_2607](https://github.com/user-attachments/assets/c3065bd7-7734-4419-b511-a7d40bb27b73)
