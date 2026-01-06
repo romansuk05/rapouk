@@ -1,0 +1,36 @@
+{
+  "uuid": "d312e709becd8c58e59682ae47a7cf6d",
+  "path": "Offline/etching",
+  "name": "etching",
+  "content": "",
+  "created_at": "2024-10-02 19:20:49",
+  "updated_at": "2024-10-02 19:22:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "695ec2163f8e28d70c687c21d4b7d40e",
+      "puuid": "d312e709becd8c58e59682ae47a7cf6d",
+      "title": "NEW_PCB",
+      "filename": "NEW_PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "35c7d6b10af34f27be24ebc957e217b4": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1
+      },
+      "BOM": [],
+      "updateTime": 1727889756,
+      "createTime": 1727889649,
+      "histories": [],
+      "created_at": "2024-10-02 19:20:49",
+      "updated_at": "2024-10-02 19:22:36"
+    }
+  ],
+  "sort": [],
+  "title": "etching",
+  "foldername": "etching",
+  "schfilename": "etching.json",
+  "schfilemtime": 1727889649619.3123
+}

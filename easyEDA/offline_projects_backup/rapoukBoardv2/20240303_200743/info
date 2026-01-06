@@ -1,0 +1,295 @@
+{
+  "uuid": "5ddc9adb1ec48256b37bf435afdda0f5",
+  "path": "Offline/rapoukBoardv2",
+  "name": "rapoukBoardv2",
+  "content": "",
+  "created_at": "2024-03-03 19:35:44",
+  "updated_at": "2024-03-03 20:07:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8738c0ffe6fcb2a40ece1b1e871892c7",
+      "title": "rapoukSchemav2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bcf0154cd37842beb819f7db997e29d4": 1,
+        "805f03d810e34b9c8c1fa042dcad8371": 1,
+        "6cd4c396eb8c4778a3564138a99d366d": 1,
+        "24debf02b63d4f6c91f9549eb752af7c": 2,
+        "bc3add47d4474f29b13acc97e6cf994a": 1,
+        "336cb66e3998451f9a8cbdd774afcc9a": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Vbat GNDbat",
+          1,
+          "JST-2MM-2PIN",
+          "COM",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-2PIN",
+            "puuid": "d5bf06d8ee8d4ca2bad91c98138244c4",
+            "uuid": "805f03d810e34b9c8c1fa042dcad8371"
+          }
+        ],
+        [
+          "VCC GND",
+          1,
+          "CONN-TH_P3.50_KF350-3.5-2P",
+          "PS",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C474892",
+            "Manufacturer": "KEFA(科发)",
+            "Manufacturer Part": "KF350-3.5-2P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C474892&%26type=1&ref=editor",
+            "spiceSymbolName": "KF350-3.5-2P",
+            "puuid": "a5de4135b4e44a21809d6d5df147bc1e",
+            "uuid": "6cd4c396eb8c4778a3564138a99d366d"
+          }
+        ],
+        [
+          "1,2k 1206",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "10k 1206",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "JST-XH03",
+          8,
+          "JST-XH03",
+          "SH0,SH1,SH2,SH3,SV0,SV1,SV2,SV3",
+          {
+            "Manufacturer Part": "JST-XH03",
+            "Contributor": "laurent66",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "JST-XH03",
+            "puuid": "8f85911cc7dc4ee2ad6cb3903050c4ea",
+            "uuid": "336cb66e3998451f9a8cbdd774afcc9a"
+          }
+        ],
+        [
+          "JUMPER",
+          1,
+          "1X2 HEADERS 2.54MM PITCH",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "7106",
+            "link": "",
+            "Contributor": "Ksel92",
+            "spiceSymbolName": "1X2 HEADERS 2.54MM PITCH",
+            "puuid": "1b7add812ec14286ad6365e193c05b05",
+            "uuid": "bc3add47d4474f29b13acc97e6cf994a"
+          }
+        ],
+        [
+          "ESP8266-12E NODEMCU AMICA",
+          1,
+          "ESP8266-12E_NODEMCU_AMICA",
+          "U2",
+          {
+            "Manufacturer Part": "NodeMCU ESP8266-12E",
+            "Contributor": "colibrilab",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESP8266-12E NODEMCU AMICA",
+            "puuid": "eb4862368e7b409fbbe270a48f11c787",
+            "uuid": "bcf0154cd37842beb819f7db997e29d4"
+          }
+        ]
+      ],
+      "updateTime": 1709492841,
+      "createTime": 1709490944,
+      "histories": [],
+      "created_at": "2024-03-03 19:35:44",
+      "updated_at": "2024-03-03 20:07:21"
+    },
+    {
+      "uuid": "5175744734aab70b33843d55bae244fd",
+      "puuid": "5ddc9adb1ec48256b37bf435afdda0f5",
+      "title": "rapoukPCBv3",
+      "filename": "rapoukPCBv3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a5de4135b4e44a21809d6d5df147bc1e": 1,
+        "8f85911cc7dc4ee2ad6cb3903050c4ea": 8,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 2,
+        "1b7add812ec14286ad6365e193c05b05": 1,
+        "d5bf06d8ee8d4ca2bad91c98138244c4": 1,
+        "eb4862368e7b409fbbe270a48f11c787": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Vbat GNDbat",
+          1,
+          "JST-2MM-2PIN",
+          "COM",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-2PIN",
+            "puuid": "d5bf06d8ee8d4ca2bad91c98138244c4",
+            "uuid": "805f03d810e34b9c8c1fa042dcad8371"
+          }
+        ],
+        [
+          "GND VCC",
+          1,
+          "CONN-TH_P3.50_KF350-3.5-2P",
+          "PS",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C474892",
+            "Manufacturer": "KEFA(科发)",
+            "Manufacturer Part": "KF350-3.5-2P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C474892&%26type=1&ref=editor",
+            "spiceSymbolName": "KF350-3.5-2P",
+            "puuid": "a5de4135b4e44a21809d6d5df147bc1e",
+            "uuid": "6cd4c396eb8c4778a3564138a99d366d"
+          }
+        ],
+        [
+          "1,2k 1206",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "10k 1206",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "JUMPER",
+          1,
+          "1X2 HEADERS 2.54MM PITCH",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "7106",
+            "link": "",
+            "Contributor": "Ksel92",
+            "spiceSymbolName": "1X2 HEADERS 2.54MM PITCH",
+            "puuid": "1b7add812ec14286ad6365e193c05b05",
+            "uuid": "bc3add47d4474f29b13acc97e6cf994a"
+          }
+        ],
+        [
+          "ESP8266-12E NODEMCU AMICA",
+          1,
+          "ESP8266-12E_NODEMCU_AMICA",
+          "U2",
+          {
+            "Manufacturer Part": "NodeMCU ESP8266-12E",
+            "Contributor": "colibrilab",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESP8266-12E NODEMCU AMICA",
+            "puuid": "eb4862368e7b409fbbe270a48f11c787",
+            "uuid": "bcf0154cd37842beb819f7db997e29d4"
+          }
+        ]
+      ],
+      "updateTime": 1709492863,
+      "createTime": 1709491382,
+      "histories": [],
+      "created_at": "2024-03-03 19:43:02",
+      "updated_at": "2024-03-03 20:07:43"
+    }
+  ],
+  "sort": [],
+  "title": "rapoukBoardv2",
+  "foldername": "rapoukBoardv2",
+  "schfilename": "rapoukBoardv2.json",
+  "schfilemtime": 1709492841384
+}

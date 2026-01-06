@@ -1,0 +1,494 @@
+{
+  "uuid": "3188e2085e7289535fc093f7c88b616a",
+  "path": "Offline/rapoukBoardv0",
+  "name": "rapoukBoardv0",
+  "content": "",
+  "created_at": "2024-02-28 16:14:42",
+  "updated_at": "2024-03-03 10:47:35",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e63dbbf0d2455193c1ae8c1fba77e1a5",
+      "title": "rapoukSchemav0",
+      "description": "",
+      "docType": "1",
+      "master": "ad686608484e252853ffc2f1f280b6ac",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "150cd01aa4f941d890c510eee4fd8630": 8,
+        "bcf0154cd37842beb819f7db997e29d4": 1,
+        "805f03d810e34b9c8c1fa042dcad8371": 1,
+        "6cd4c396eb8c4778a3564138a99d366d": 1,
+        "24debf02b63d4f6c91f9549eb752af7c": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Vbat GNDbat",
+          1,
+          "JST-2MM-2PIN",
+          "COM",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-2PIN",
+            "puuid": "d5bf06d8ee8d4ca2bad91c98138244c4",
+            "uuid": "805f03d810e34b9c8c1fa042dcad8371"
+          }
+        ],
+        [
+          "VCC GND",
+          1,
+          "CONN-TH_P3.50_KF350-3.5-2P",
+          "PS",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C474892",
+            "Manufacturer": "KEFA(科发)",
+            "Manufacturer Part": "KF350-3.5-2P",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C474892&%26type=1&ref=editor",
+            "spiceSymbolName": "KF350-3.5-2P",
+            "puuid": "a5de4135b4e44a21809d6d5df147bc1e",
+            "uuid": "6cd4c396eb8c4778a3564138a99d366d"
+          }
+        ],
+        [
+          "1,2k 1205",
+          1,
+          "R1206",
+          "R1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "10k 1205",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018062",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J240K",
+            "link": "https://lcsc.com/eda_search?q=C3018062&%26type=1&ref=editor",
+            "spiceSymbolName": "SCR1206J240K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "24debf02b63d4f6c91f9549eb752af7c"
+          }
+        ],
+        [
+          "GND VCC D0",
+          1,
+          "JST-2MM-3PIN",
+          "SH0",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D1",
+          1,
+          "JST-2MM-3PIN",
+          "SH1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D2",
+          1,
+          "JST-2MM-3PIN",
+          "SH2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D3",
+          1,
+          "JST-2MM-3PIN",
+          "SH3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D4",
+          1,
+          "JST-2MM-3PIN",
+          "SV0",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D5",
+          1,
+          "JST-2MM-3PIN",
+          "SV1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D6",
+          1,
+          "JST-2MM-3PIN",
+          "SV2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "GND VCC D7",
+          1,
+          "JST-2MM-3PIN",
+          "SV3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "ESP8266-12E NODEMCU AMICA",
+          1,
+          "ESP8266-12E_NODEMCU_AMICA",
+          "U2",
+          {
+            "Manufacturer Part": "NodeMCU ESP8266-12E",
+            "Contributor": "colibrilab",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "ESP8266-12E NODEMCU AMICA",
+            "puuid": "eb4862368e7b409fbbe270a48f11c787",
+            "uuid": "bcf0154cd37842beb819f7db997e29d4"
+          }
+        ]
+      ],
+      "updateTime": 1709459255,
+      "createTime": 1709133282,
+      "histories": [],
+      "created_at": "2024-02-28 16:14:42",
+      "updated_at": "2024-03-03 10:47:35"
+    },
+    {
+      "uuid": "436028d980a10e0fb5d1f9383055bae9",
+      "puuid": "3188e2085e7289535fc093f7c88b616a",
+      "title": "rapoukPCBv0",
+      "filename": "rapoukPCBv0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a5de4135b4e44a21809d6d5df147bc1e": 1,
+        "d5bf06d8ee8d4ca2bad91c98138244c4": 1,
+        "eb4862368e7b409fbbe270a48f11c787": 1,
+        "b73d3b375c0a46039e172c3b6b21c90a": 8,
+        "d4f0b141b0f9424a9393b10bfdfaf776": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RX TX Vbat GNDbat",
+          1,
+          "JST-XH 2.5MM 4PIN",
+          "COM",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "niruti urairam",
+            "spiceSymbolName": "JST XH 4PIN",
+            "puuid": "025dfb9708384c2a80d900d795404040",
+            "uuid": "d1169fe47b174c48bf9416a733ce7a41"
+          }
+        ],
+        [
+          "1,2k 1206",
+          1,
+          "SPARKFUN-RESISTORS_1206",
+          "R1",
+          {
+            "Contributor": "lasvit.maty",
+            "spiceSymbolName": "SPARKFUN-RESISTORS_RESISTOR1206",
+            "Manufacturer Part": "",
+            "puuid": "d4f0b141b0f9424a9393b10bfdfaf776",
+            "uuid": "c3b1c3d3f9c641adac09f6b50458c095"
+          }
+        ],
+        [
+          "10k 1206",
+          1,
+          "SPARKFUN-RESISTORS_1206",
+          "R2",
+          {
+            "Contributor": "lasvit.maty",
+            "spiceSymbolName": "SPARKFUN-RESISTORS_RESISTOR1206",
+            "Manufacturer Part": "",
+            "puuid": "d4f0b141b0f9424a9393b10bfdfaf776",
+            "uuid": "c3b1c3d3f9c641adac09f6b50458c095"
+          }
+        ],
+        [
+          "D0 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SH0",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D1 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SH1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D2 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SH2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D3 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SH3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D4 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SV0",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D5 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SV1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D6 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SV2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "D7 VCC GND",
+          1,
+          "JST-2MM-3PIN",
+          "SV3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "NODEMCU_ESP8266-12E_AMICA_V2 COPY COPY COPY",
+          1,
+          "NODEMCU ESP8266-12E AMICA V2",
+          "U1",
+          {
+            "Contributor": "shanehimself",
+            "Author": "Krzysztof Daszuta",
+            "timeStamp": "1474282571",
+            "sourceId": "c4ASM4mEW",
+            "Supplier Part": "nodemcu-v2",
+            "Supplier": "Nettigo",
+            "subpart_no": "1",
+            "spiceSymbolName": "NODEMCU_ESP8266-12E_AMICA_V2 COPY COPY COPY",
+            "Manufacturer Part": "",
+            "puuid": "bfd2d7ff21f74a608e407ec2aab8c6cc",
+            "uuid": "90afb61bb001425c98ee941565f5ef03"
+          }
+        ]
+      ],
+      "updateTime": 1709458868,
+      "createTime": 1709133320,
+      "histories": [],
+      "created_at": "2024-02-28 16:15:20",
+      "updated_at": "2024-03-03 10:41:08"
+    }
+  ],
+  "sort": [],
+  "title": "rapoukBoardv0",
+  "foldername": "rapoukBoardv0",
+  "schfilename": "rapoukBoardv0.json",
+  "schfilemtime": 1709459255685
+}

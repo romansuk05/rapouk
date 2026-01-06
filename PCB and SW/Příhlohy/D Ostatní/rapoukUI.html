@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <title>Ovladání Rapouka</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            width: 95vw;
+            background-color: #303134;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .controller, .animations {
+            display: grid;
+            grid-gap: 10px;
+            padding: 20px;
+            background-color: #4c4c4c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000033;
+        }
+
+        .controller {
+            grid-template-areas: 
+                "rotateLeft moveForward rotateRight"
+                "turnLeft home turnRight"
+                ". moveBackward .";
+            justify-items: center;
+            align-items: center;
+        }
+
+        .animations {
+            grid-template-areas: 
+                "animationHello animationPushup animationWave"
+                "animationCustom0 animationCustom1 animationCustom2";
+            justify-items: center;
+            align-items: center;
+        }
+
+        .settings {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 15px;
+            background-color: #4c4c4c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00000033;
+        }
+
+        .settings .setting-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            font-size: x-large;
+            accent-color: #af0808;
+        }
+
+        .settings .setting-item p {
+            margin: 0;
+            margin-right: 10px;
+        }
+        
+        button {
+            width: 100px;
+            height: 100px;
+            font-size: xx-large;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px #00000033;
+            transition: background-color 0.3s ease;
+            color: white;
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .moveForward {grid-area: moveForward; background-color: #7C0A02;}
+        .turnLeft {grid-area: turnLeft; background-color: #7C0A02;}
+        .home {grid-area: home; background-color: #7C0A02;}
+        .turnRight {grid-area: turnRight; background-color: #7C0A02;}
+        .moveBackward {grid-area: moveBackward; background-color: #7C0A02;}
+
+        .rotateLeft {grid-area: rotateLeft; background-color: #af0808;}
+        .rotateRight {grid-area: rotateRight; background-color: #af0808;}
+
+        .animationHello {background-color: #7C0A02; font-size: 275%;}
+        .animationPushup {background-color: #7C0A02; font-size: 275%;}
+        .animationWave {background-color: #7C0A02; font-size: 275%;}
+        .animationCustom0 {background-color: #7C0A02; font-size: larger;}
+        .animationCustom1 {background-color: #7C0A02; font-size: larger;}
+        .animationCustom2 {background-color: #7C0A02; font-size: larger;}
+
+        #content {
+            display: none;
+        }
+
+        #warning {
+            display: none;
+            margin: 10%;
+            text-align: center;
+            font-size: 50px;
+            color: #f70d1a;
+        }
+
+        @media (orientation: landscape) {
+            #content {
+                display: block;
+            }
+
+            #warning {
+                display: none;
+            }
+        }
+
+        @media (orientation: portrait) {
+            #content {
+                display: none;
+            }
+
+            #warning {
+                display: block;
+            }
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #303134;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: #af0808;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #7C0A02;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 3px #00000033;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="container">
+            <div class="controller">
+                <button class="rotateLeft" data-command="rotateLeft">↺</button>
+                <button class="moveForward" data-command="moveForward">↑</button>
+                <button class="rotateRight" data-command="rotateRight">↻</button>
+                <button class="turnLeft" data-command="turnLeft">←</button>
+                <button class="home" data-command="home">■</button>
+                <button class="turnRight" data-command="turnRight">→</button>
+                <button class="moveBackward" data-command="moveBackward">↓</button>
+            </div>
+            <div class="settings">
+                <div class="setting-item">
+                    <p class="IP">IP adresa<br><span id="IPAdress">unknown</span></p>
+                </div>
+                <div class="setting-item">
+                    <p>Aktuální % baterie<br><span id="batteryStatus">unknown</span></p>
+                </div>
+                <div class="setting-item">
+                    <p>Tempomat</p>
+                    <label class="switch">
+                        <input type="checkbox" data-command="autopilot">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div>
+                    <p class="setting-item">Rychlost</p>
+                    <input class="setting-item" style="width: 180px;" type="range" min="0" max="50" value="10" data-command="setSpeed">
+                </div>
+            </div>
+            <div class="animations">
+                <button class="animationHello" data-command="animationHello">👋</button>
+                <button class="animationPushup" data-command="animationPushup">🖱️</button>
+                <button class="animationWave" data-command="animationWave">🌊</button>
+                <button class="animationCustom0" data-command="animationCustom0">Custom 0</button>
+                <button class="animationCustom1" data-command="animationCustom1">Custom 1</button>
+                <button class="animationCustom2" data-command="animationCustom2">Custom 2</button>
+            </div>
+        </div>
+    </div>
+    <div id="warning">
+        <p>Otoč si zařízení na šířku!</p>
+        <p>Tohle není Instagram 😆</p>
+    </div>
+    <script>
+        let isBusy = false;
+        let longPressTimer = null;
+        let lastOffCommand = null;
+        let autopilotEnabled = false;
+
+        async function sendRequest(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error("Loading error: " + response.status);
+                return await response.text();
+            } catch (error) {}
+        }
+
+        async function toggleCheckbox(command, value) {
+            if (isBusy && command !== "off") return;
+            if (autopilotEnabled && !["batteryStatus", "autopilotOn", "setSpeed"].includes(command)) return;
+
+            let url = `/${command}${value !== undefined ? `?value=${value}` : ""}`;
+
+            if (command === "off" && lastOffCommand === url) return;
+            lastOffCommand = command === "off" ? url : null;
+
+            isBusy = true;
+            await sendRequest(url);
+            isBusy = false;
+        }
+
+        function handleLongPress(command, value) {
+            longPressTimer = setInterval(() => {
+                if (!isBusy) toggleCheckbox(command, value);
+            }, 1000);
+        }
+
+        function cancelLongPress() {
+            clearInterval(longPressTimer);
+            longPressTimer = null;
+        }
+
+        function setupButtons() {
+            document.querySelectorAll("[data-command]").forEach(button => {
+                const command = button.getAttribute("data-command");
+                const value = button.getAttribute("data-value");
+
+                if (button.type === "range") {
+                    button.addEventListener("input", () => toggleCheckbox(command, button.value));
+
+                    if (command === "setSpeed") {
+                        toggleCheckbox(command, button.value);
+                    }
+
+                } else {
+                    const pressHandler = () => {
+                        cancelLongPress();
+                        toggleCheckbox(command, value);
+                        handleLongPress(command, value);
+                    };
+                    const releaseHandler = () => {
+                        cancelLongPress();
+                        if (command !== "setSpeed") toggleCheckbox("off");
+                    };
+
+                    button.addEventListener("touchstart", pressHandler);
+                    button.addEventListener("touchend", releaseHandler);
+                    button.addEventListener("mousedown", pressHandler);
+                    button.addEventListener("mouseup", releaseHandler);
+                }
+            });
+        }
+
+        async function updateElementContent(url, elementId, suffix = "") {
+            const response = await sendRequest(url);
+            if (response !== undefined) document.getElementById(elementId).innerText = response + suffix;
+        }
+
+        async function updateBatteryStatus() {
+            const response = await sendRequest("/batteryStatus");
+            if (response !== undefined) {
+                const batteryStatus = parseInt(response);
+                const batteryElement = document.getElementById("batteryStatus");
+                batteryElement.innerText = batteryStatus + "%";
+                batteryElement.style.color = batteryStatus <= 20 ? "red" : "black";
+            }
+        }
+
+        function lockOrientation() {
+            if (screen.orientation) {
+                screen.orientation.lock("landscape").catch(() => {});
+            }
+        }
+
+        function setupAutopilotSwitch() {
+            const autopilotSwitch = document.querySelector("[data-command='autopilot']");
+            if (autopilotSwitch) {
+                autopilotSwitch.addEventListener("change", () => {
+                    autopilotEnabled = autopilotSwitch.checked;
+                    toggleCheckbox(autopilotEnabled ? "autopilotOn" : "autopilotOff");
+                });
+            }
+        }
+
+        window.addEventListener("load", () => {
+            lockOrientation();
+            updateElementContent("/IPAdress", "IPAdress");
+            updateBatteryStatus();
+            setInterval(updateBatteryStatus, 6000);
+            setupAutopilotSwitch();
+            setupButtons();
+        });
+    </script>
+</body>
+</html>

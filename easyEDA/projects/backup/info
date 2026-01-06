@@ -1,0 +1,29 @@
+{
+  "path": "Offline/backup",
+  "foldername": "backup",
+  "name": "backup",
+  "title": "backup",
+  "uuid": "1490e9546372a1a5ab9dbcd213003e52",
+  "created_at": "2024-09-07 23:19:01",
+  "updated_at": "2024-09-07 23:19:01",
+  "documents": [
+    {
+      "uuid": "7c3e44ccb54477bb4f40f69b98baa055",
+      "title": "rapoukSchematicv4",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1725742244,
+      "createTime": 1725742244,
+      "histories": [],
+      "created_at": "2024-09-07 22:50:44",
+      "updated_at": "2024-09-07 22:50:44"
+    }
+  ],
+  "content": "",
+  "stick": "",
+  "sort": [],
+  "schfilename": "backup.json",
+  "schfilemtime": 1725742244952.2527
+}

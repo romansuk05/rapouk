@@ -1,0 +1,77 @@
+{
+  "uuid": "b9a28fdfdb30cf2008d1fb5428219704",
+  "path": "Offline/rapoukSensorBoardv0",
+  "name": "rapoukSensorBoardv0",
+  "content": "",
+  "created_at": "2024-08-15 21:15:37",
+  "updated_at": "2024-08-15 21:53:31",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ce78803bdec06e6dc2a1267b27679112",
+      "title": "rapoukSensorBoardv0",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d431f0d7897b4e63a2ebb330a67660dc": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "LED_5MM",
+          2,
+          "LED-TH_BD5.0-P2.54-FD_C9900023552",
+          "LED1,LED2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900023552",
+            "Manufacturer": "null",
+            "Manufacturer Part": "LED_5MM",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LED_5MM",
+            "puuid": "40e3305255ad4a04b83035c540e796e7",
+            "uuid": "d431f0d7897b4e63a2ebb330a67660dc"
+          }
+        ]
+      ],
+      "updateTime": 1723751477,
+      "createTime": 1723749337,
+      "histories": [],
+      "created_at": "2024-08-15 21:15:37",
+      "updated_at": "2024-08-15 21:51:17"
+    },
+    {
+      "uuid": "23d319a4ee40574e8c6c95e6da9f4201",
+      "puuid": "b9a28fdfdb30cf2008d1fb5428219704",
+      "title": "PCB_rapoukSensorBoardv0_2",
+      "filename": "PCB_rapoukSensorBoardv0_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "40e3305255ad4a04b83035c540e796e7": 2
+      },
+      "BOM": [],
+      "updateTime": 1723751611,
+      "createTime": 1723751419,
+      "histories": [],
+      "created_at": "2024-08-15 21:50:19",
+      "updated_at": "2024-08-15 21:53:31"
+    }
+  ],
+  "sort": [],
+  "title": "rapoukSensorBoardv0",
+  "foldername": "rapoukSensorBoardv0",
+  "schfilename": "rapoukSensorBoardv0.json",
+  "schfilemtime": 1723751477314
+}

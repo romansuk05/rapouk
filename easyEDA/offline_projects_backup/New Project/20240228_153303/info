@@ -1,0 +1,146 @@
+{
+  "uuid": "e3a693079e20f41e5b3421748daf4cae",
+  "path": "Offline/New Project",
+  "name": "New Project",
+  "content": "",
+  "created_at": "2024-02-28 10:43:01",
+  "updated_at": "2024-02-28 15:33:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "71650d3f98ce387185eb263253c2eff2",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "a40a0cd192e253432fe9743099530285",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "90afb61bb001425c98ee941565f5ef03": 1,
+        "c3b1c3d3f9c641adac09f6b50458c095": 2,
+        "d1169fe47b174c48bf9416a733ce7a41": 1,
+        "150cd01aa4f941d890c510eee4fd8630": 8
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1,2k 1206",
+          1,
+          "SPARKFUN-RESISTORS_1206",
+          "R1",
+          {
+            "Contributor": "lasvit.maty",
+            "spiceSymbolName": "SPARKFUN-RESISTORS_RESISTOR1206",
+            "Manufacturer Part": "",
+            "puuid": "d4f0b141b0f9424a9393b10bfdfaf776",
+            "uuid": "c3b1c3d3f9c641adac09f6b50458c095"
+          }
+        ],
+        [
+          "10k 1206",
+          1,
+          "SPARKFUN-RESISTORS_1206",
+          "R2",
+          {
+            "Contributor": "lasvit.maty",
+            "spiceSymbolName": "SPARKFUN-RESISTORS_RESISTOR1206",
+            "Manufacturer Part": "",
+            "puuid": "d4f0b141b0f9424a9393b10bfdfaf776",
+            "uuid": "c3b1c3d3f9c641adac09f6b50458c095"
+          }
+        ],
+        [
+          "JST-2MM",
+          8,
+          "JST-2MM-3PIN",
+          "SH0,SH1,SH2,SH3,SV0,SV1,SV2,SV3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "treblewing",
+            "spiceSymbolName": "JST-2MM-3PIN",
+            "puuid": "b73d3b375c0a46039e172c3b6b21c90a",
+            "uuid": "150cd01aa4f941d890c510eee4fd8630"
+          }
+        ],
+        [
+          "JST XH 4PIN",
+          1,
+          "JST-XH 2.5MM 4PIN",
+          "TX/RX",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "niruti urairam",
+            "spiceSymbolName": "JST XH 4PIN",
+            "puuid": "025dfb9708384c2a80d900d795404040",
+            "uuid": "d1169fe47b174c48bf9416a733ce7a41"
+          }
+        ],
+        [
+          "NODEMCU_ESP8266-12E_AMICA_V2 COPY COPY COPY",
+          1,
+          "NODEMCU ESP8266-12E AMICA V2",
+          "U1",
+          {
+            "Contributor": "shanehimself",
+            "Author": "Krzysztof Daszuta",
+            "timeStamp": "1474282571",
+            "sourceId": "c4ASM4mEW",
+            "Supplier Part": "nodemcu-v2",
+            "Supplier": "Nettigo",
+            "subpart_no": "1",
+            "spiceSymbolName": "NODEMCU_ESP8266-12E_AMICA_V2 COPY COPY COPY",
+            "Manufacturer Part": "",
+            "puuid": "bfd2d7ff21f74a608e407ec2aab8c6cc",
+            "uuid": "90afb61bb001425c98ee941565f5ef03"
+          }
+        ]
+      ],
+      "updateTime": 1709130783,
+      "createTime": 1709113382,
+      "histories": [],
+      "created_at": "2024-02-28 10:43:02",
+      "updated_at": "2024-02-28 15:33:03"
+    },
+    {
+      "uuid": "de7d6ce911bf8b257173608c9d2e8590",
+      "puuid": "e3a693079e20f41e5b3421748daf4cae",
+      "title": "PCB_New Project_2",
+      "filename": "PCB_New Project_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29621e1a94c742b899f6f38515fb0984": 8,
+        "bfd2d7ff21f74a608e407ec2aab8c6cc": 1,
+        "d5bf06d8ee8d4ca2bad91c98138244c4": 1,
+        "89c89721283a4021a3b22a8459abddf8": 1,
+        "d4f0b141b0f9424a9393b10bfdfaf776": 2
+      },
+      "BOM": [],
+      "updateTime": 1709129844,
+      "createTime": 1709123570,
+      "histories": [],
+      "created_at": "2024-02-28 13:32:50",
+      "updated_at": "2024-02-28 15:17:24"
+    }
+  ],
+  "sort": [],
+  "title": "New Project",
+  "foldername": "New Project",
+  "schfilename": "New Project.json",
+  "schfilemtime": 1709130783933
+}

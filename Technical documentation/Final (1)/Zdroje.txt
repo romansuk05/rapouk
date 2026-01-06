@@ -1,0 +1,9 @@
+https://grabcad.com/library/type-c-connector-jack-female-1
+https://grabcad.com/library/bateria-18650-samsung-1
+https://grabcad.com/library/nodemcu-lua-wifi-esp8266-1
+https://grabcad.com/library/servo-emax-es08ma-1
+https://grabcad.com/library/xl4015-dc-dc-stepdown-5a-cc-cv-1
+https://grabcad.com/library/wifi-antenn-1
+https://grabcad.com/library/pins-set-1
+https://grabcad.com/library/4-pins-jst-2
+https://grabcad.com/library/m2-hex-nut-high-level-of-detail-1

@@ -1,0 +1,3049 @@
+{
+  "uuid": "2c6a892651be11b216feb82cb1927c87",
+  "path": "Offline/05",
+  "name": "05",
+  "content": "",
+  "created_at": "2024-09-04 22:49:46",
+  "updated_at": "2024-10-20 11:08:41",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "67d3d3dd1cfef4d1a7d716aa7402edae",
+      "title": "rapoukSchematicv4",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "29c4b2e35e7942dc87c121dd1a162417": 1,
+        "9713ac21b7cb4225bda73ea97cc4f112": 1,
+        "73e2761621cc4df3af1523b245848ad6": 2,
+        "5d68724eb9944220a43ed4fa2077c1af": 1,
+        "98209bacd16f49e8be295226ca1e31f3": 10,
+        "275f0373c39545b4a65bd202cf6061ab": 1,
+        "a6c2b90d75ca46a094b21d53f481d0f4": 3,
+        "b30110200edc44fbb6506ebe04e63f96": 2,
+        "0aeb0d539457499f8b48de1b1d7e183b": 1,
+        "9d092e1bc0644f5e925540446ee3eafc": 1,
+        "430cdabad2374b3e82c64978386237de": 1,
+        "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc": 1,
+        "b65a3a47e9be4d9687e469e9e7a75ca9": 2,
+        "fd7f05d45c6d41af82a1d1364958e736": 1,
+        "7f496d3baf1a4c81aa7c48a417fb6537": 2,
+        "6d35890b17a94aa08042b9c14cad25d9": 7,
+        "73fdb543c46d4c03ad4f80eaa2d8090a": 1,
+        "f7aa7b1628f64dc2a638a8696a4f2fde": 1,
+        "6f76c7a28b14461bbe37ab2acfa5dd59": 1,
+        "f8b7bf71855149b0a4aff55a1da9ad4f": 5,
+        "43a46b023c5a4e599c00cbf4e645bd41": 2,
+        "e6161cb146cb425f827ae2db8d19d653": 1,
+        "036d31863f33447992834fe638cf54eb": 2,
+        "fe559452da914b2db11750a03a6dfe59": 3,
+        "683b557107be49ac8c741ab92cf9da4d": 1,
+        "e47eee9eb5f64ad896ba4c0b4a608385": 1,
+        "559223beb08e4712ba38c9470631f079": 1,
+        "d22acca175744549a24a1b3accd62521": 2,
+        "94d3247b71af47aab33e394f66eb5b88": 2,
+        "a94cff73094b4f21aba8ca710082e1ac": 2,
+        "bca333e11ff34d5c9b1bc0fb173147bb": 1,
+        "1d8c0dfc1fd94679964b0dc5d1847bb0": 1,
+        "40007ce9489c4e29a1dfd5f837e7f050": 3,
+        "b0b7e990de764caf8584f7583e12d78f": 1,
+        "a4789408d9904d868969eb7092e523c2": 1,
+        "ab7b68288ece4bd681edbb5f84113855": 2,
+        "f64f5f8ac19f4c2eb42724f2429236b0": 1,
+        "dbbd8ce7ca8a4a2caba2494561606d12": 1,
+        "d815de75d08648aab985300fea0889c7": 1,
+        "5b5458a781b54b9296157e79a52d23d3": 2,
+        "c34879f081844a54a373f02ec794bafa": 2,
+        "709eb6f3ac6c44c4a572e9eccf3524ad": 1,
+        "5ff50d0f1256479ab0890054740bc08e": 1,
+        "49b5bf53ddd44d80b0c7453d4f022546": 1,
+        "c72632bfd50440d5bd2de8d060f7672e": 1,
+        "86b4b4a775084ed2b7cf7ffdf7e657ff": 1,
+        "21ee6254ec54409c9db9631c3ab28ef3": 1,
+        "0e52d565d9d94758ab86ca70592e88c0": 1,
+        "ab5a7d99c0cf4e45b8b6c667d1b13c5e": 1,
+        "0f5d740143de4d2aa4a38d61961d2b3f": 1,
+        "3e869a76916c4591bc1823343bf59ecd": 1,
+        "e0aa3192396f4a8ab74977bb81b8b69f": 1,
+        "9e8c78d9c4b14d148984d644b34e71f9": 1,
+        "21d5238030ba4b98ac21e88e60c941ee": 1,
+        "e4d65ad0b7984c33ace9a6bd2df7ac64": 1,
+        "e051b43b21f0466e82abb31659b907b8": 1,
+        "1dd2a30e9a8a49c385721ee1e9144b88": 1,
+        "33720b7f217b4e56833daf3b1f69b94f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "T-DEAN",
+          1,
+          "T_DEAN",
+          "BT1",
+          {
+            "Contributor": "michalklis",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "T-DEAN",
+            "Manufacturer Part": "",
+            "puuid": "64af707456d34cf39d1a0601b70f344d",
+            "uuid": "dbbd8ce7ca8a4a2caba2494561606d12"
+          }
+        ],
+        [
+          "470nF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C282872",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R474K500FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R474K500FT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "5d68724eb9944220a43ed4fa2077c1af"
+          }
+        ],
+        [
+          "10uF",
+          10,
+          "C1206",
+          "C2,C3,C6,C7,C12,C13,C16,C18,C22,C25",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C380364",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R106K250HT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R106K250HT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "98209bacd16f49e8be295226ca1e31f3"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TAIYO YUDEN(太诱)",
+            "Manufacturer Part": "TMK316B7106KL-TD",
+            "Supplier Part": "C92831",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TMK316B7106KL-TD",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "73e2761621cc4df3af1523b245848ad6"
+          }
+        ],
+        [
+          "3.3nF",
+          1,
+          "C1206",
+          "C8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C377096",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R332K501DT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R332K501DT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "0f5d740143de4d2aa4a38d61961d2b3f"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C9,C23",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2319128",
+            "Manufacturer": "Knowles(楼氏)",
+            "Manufacturer Part": "1206Y1000104KXR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206Y1000104KXR",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "b65a3a47e9be4d9687e469e9e7a75ca9"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C10",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4747968",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "RST10UF16V013",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "RST10UF16V013",
+            "puuid": "8b0b0bcdaf8c42b885e54cd52eac6ccd",
+            "uuid": "e4d65ad0b7984c33ace9a6bd2df7ac64"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C11,C24",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2253379",
+            "Manufacturer": "KEMET(基美)",
+            "Manufacturer Part": "C1206X104J1RECAUTO7210",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104J1RECAUTO7210",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "d22acca175744549a24a1b3accd62521"
+          }
+        ],
+        [
+          "33nF",
+          1,
+          "C1206",
+          "C14",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "muRata(村田)",
+            "Manufacturer Part": "GRM31CR72E333KW03L",
+            "Supplier Part": "C97957",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GRM31CR72E333KW03L",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "e0aa3192396f4a8ab74977bb81b8b69f"
+          }
+        ],
+        [
+          "10nF",
+          1,
+          "C1206",
+          "C15",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C7500386",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "CC1206JKNPOZBN103",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CC1206JKNPOZBN103",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "ab5a7d99c0cf4e45b8b6c667d1b13c5e"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C17,C19",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "IHHEC(禾伸堂)",
+            "Manufacturer Part": "C1206X104K451T",
+            "Supplier Part": "C106025",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104K451T",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a94cff73094b4f21aba8ca710082e1ac"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C20,C21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C444887",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Manufacturer Part": "CL31X226KQHNNNE",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CL31X226KQHNNNE",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "94d3247b71af47aab33e394f66eb5b88"
+          }
+        ],
+        [
+          "PH-6P立贴",
+          1,
+          "CONN-SMD_6P-P2.0-L14.0-W5.4",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C64659",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-6P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-6P立贴",
+            "puuid": "8c6e314244ab45698a8121f617535563",
+            "uuid": "6f76c7a28b14461bbe37ab2acfa5dd59"
+          }
+        ],
+        [
+          "XH2.54-2AB",
+          1,
+          "CONN-SMD_2P-P2.54_XH2.54-2AB",
+          "CN2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146125",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-2P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-2AB",
+            "puuid": "e159c602257f4302a4fba0154e9ceeae",
+            "uuid": "9e8c78d9c4b14d148984d644b34e71f9"
+          }
+        ],
+        [
+          "XH2.54-3AB",
+          1,
+          "CONN-SMD_3P-P2.54_XH2.54-3AB",
+          "CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146126",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-3AB",
+            "puuid": "3981f18ab3cf41639f7acd28ccfe9b50",
+            "uuid": "a4789408d9904d868969eb7092e523c2"
+          }
+        ],
+        [
+          "PH2.0-2P",
+          1,
+          "CONN-SMD_PH2.0-1X2PW",
+          "CN4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-2P立贴",
+            "Supplier Part": "C64658",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH2.0-2P",
+            "puuid": "9b10394c9873438eba74d1215d2660cd",
+            "uuid": "c72632bfd50440d5bd2de8d060f7672e"
+          }
+        ],
+        [
+          "PH-4P立贴",
+          1,
+          "CONN-SMD_PH2.0-4P",
+          "CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67258",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-4P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-4P立贴",
+            "puuid": "b998eff7edd64c23807c76100779cf71",
+            "uuid": "86b4b4a775084ed2b7cf7ffdf7e657ff"
+          }
+        ],
+        [
+          "2.0-3P",
+          1,
+          "CONN-SMD_3P-LT",
+          "CN6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146054",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.0-3P",
+            "puuid": "1bcd905c81ab4cd8b1a8b5d33626f448",
+            "uuid": "d815de75d08648aab985300fea0889c7"
+          }
+        ],
+        [
+          "SS54C",
+          2,
+          "SMC_L7.5-W5.8-LS8.3-RD",
+          "D1,D5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C330398",
+            "Manufacturer": "LGE(鲁光)",
+            "Manufacturer Part": "SS54",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS54C",
+            "puuid": "9c2e341229ae4533b2f5474588d61518",
+            "uuid": "b30110200edc44fbb6506ebe04e63f96"
+          }
+        ],
+        [
+          "SS34-A",
+          3,
+          "SMA_L4.3-W2.6-LS5.2-RD",
+          "D2,D3,D4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143201",
+            "Manufacturer": "FMS(美丽微)",
+            "Manufacturer Part": "SS34-A",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS34-A",
+            "puuid": "b7243d11a5f04fb7894887aaa3569585",
+            "uuid": "a6c2b90d75ca46a094b21d53f481d0f4"
+          }
+        ],
+        [
+          "10uH",
+          1,
+          "IND-SMD_L5.8-W5.2_CD54",
+          "L1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492291",
+            "Manufacturer": "YJYCOIN(益嘉源)",
+            "Manufacturer Part": "CD54YP0504-100M",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD54YP0504-100M",
+            "puuid": "b8f382af9ffa49298291ad3b54ad49dc",
+            "uuid": "f7aa7b1628f64dc2a638a8696a4f2fde"
+          }
+        ],
+        [
+          "SINC1313-470M L470 SMD",
+          1,
+          "SINC1313",
+          "L2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "https://vi.aliexpress.com/item/1005006932666277.html?spm=a2g0o.productlist.main.1.240cENmjENmj9N&algo_pvid=bf29db7b-fa88-44d8-ba6d-a49f370a463e&algo_exp_id=bf29db7b-fa88-44d8-ba6d-a49f370a463e-0&pdp_npi=4%40dis%21USD%215.23%214.60%21%21%2137.50%2133.00%21%40210313e917158827587508967e9ebd%2112000038772414878%21sea%21CZ%210%21AB&curPageLogUid=HUxgkZ86eIhu&utparam-url=scene%3Asearch%7Cquery_from%3A",
+            "Contributor": "romansuk05",
+            "spiceSymbolName": "SINC1313-470M L470 SMD",
+            "Package Display": "No",
+            "puuid": "7cd658f2e48a497082072229f1995925",
+            "uuid": "e47eee9eb5f64ad896ba4c0b4a608385"
+          }
+        ],
+        [
+          "15uH",
+          1,
+          "IND-SMD_L7.8-W7.0-A",
+          "L3",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2453108",
+            "Manufacturer": "Sumida(胜美达)",
+            "Manufacturer Part": "CD75NP-150KC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD75NP-150KC",
+            "puuid": "718e3754a2c943f99a79c8b7b843b718",
+            "uuid": "33720b7f217b4e56833daf3b1f69b94f"
+          }
+        ],
+        [
+          "2.2uH",
+          1,
+          "IND-SMD_L7.8-W7.0_GCD75",
+          "L4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C405172",
+            "Manufacturer": "Cybermax(思博科技)",
+            "Manufacturer Part": "CMLF0705-2R2MTT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CMLF0705-2R2MTT",
+            "puuid": "ae0fd5c4cb5f453cae311c4d33625180",
+            "uuid": "1dd2a30e9a8a49c385721ee1e9144b88"
+          }
+        ],
+        [
+          "ŽLUTÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ZELENÁ",
+          2,
+          "LED1206-R-RD_RED",
+          "LED2,LED3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ČERVENÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "MODRÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "1.2MΩ",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C325657",
+            "Manufacturer": "Tyohm(幸亚电阻)",
+            "Manufacturer Part": "RMC06031.2M1%N",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RMC06031.2M1%N",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "683b557107be49ac8c741ab92cf9da4d"
+          }
+        ],
+        [
+          "3kΩ",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C881253",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206J3K00P05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206J3K00P05Z",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "430cdabad2374b3e82c64978386237de"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "RT1206FRD0715KL",
+            "Supplier Part": "C136874",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RT1206FRD0715KL",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "9d092e1bc0644f5e925540446ee3eafc"
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "R1206",
+          "R4,R22",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352061",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F510RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F510RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "c34879f081844a54a373f02ec794bafa"
+          }
+        ],
+        [
+          "100Ω",
+          2,
+          "R1206",
+          "R5,R17",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017190",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F100R",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206F100R",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5b5458a781b54b9296157e79a52d23d3"
+          }
+        ],
+        [
+          "10kΩ",
+          6,
+          "R1206",
+          "R6,R15,R16,R18,R30,R32",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "20kΩ",
+          1,
+          "R1206",
+          "R7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C429423",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206F20KP05",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206F20KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e6161cb146cb425f827ae2db8d19d653"
+          }
+        ],
+        [
+          "4.7kΩ",
+          1,
+          "R1206",
+          "R8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C242482",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW12064K70FKEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW12064K70FKEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "0aeb0d539457499f8b48de1b1d7e183b"
+          }
+        ],
+        [
+          "6.34kΩ",
+          1,
+          "R1206",
+          "R9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C323116",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "RS-06K6341FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RS-06K6341FT",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "fd7f05d45c6d41af82a1d1364958e736"
+          }
+        ],
+        [
+          "2kΩ",
+          1,
+          "R1206",
+          "R10",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "RALEC(旺诠)",
+            "Manufacturer Part": "RTT06202JTP",
+            "Supplier Part": "C104689",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RTT06202JTP",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "275f0373c39545b4a65bd202cf6061ab"
+          }
+        ],
+        [
+          "5.1kΩ",
+          3,
+          "R0603",
+          "R11,R12,R31",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5123614",
+            "Manufacturer": "Milliohm(毫欧)",
+            "Manufacturer Part": "HoARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HOARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fe559452da914b2db11750a03a6dfe59"
+          }
+        ],
+        [
+          "100kΩ",
+          2,
+          "R1206",
+          "R13,R20",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C176233",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "QR1206F100KP05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "QR1206F100KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "43a46b023c5a4e599c00cbf4e645bd41"
+          }
+        ],
+        [
+          "6.8kΩ",
+          1,
+          "R1206",
+          "R14",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C229771",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "AC1206FR-076K8L",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AC1206FR-076K8L",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "0e52d565d9d94758ab86ca70592e88c0"
+          }
+        ],
+        [
+          "47kΩ",
+          1,
+          "R1206",
+          "R19",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C429214",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206J47KP05",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206J47KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "3e869a76916c4591bc1823343bf59ecd"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R1206",
+          "R21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C328408",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F100RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F100RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "bca333e11ff34d5c9b1bc0fb173147bb"
+          }
+        ],
+        [
+          "470Ω",
+          2,
+          "R1206",
+          "R23,R33",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844237",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW1206470RJNEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW1206470RJNEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ab7b68288ece4bd681edbb5f84113855"
+          }
+        ],
+        [
+          "82kΩ",
+          1,
+          "R1206",
+          "R24",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352030",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F82K0K9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F82K0K9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "1d8c0dfc1fd94679964b0dc5d1847bb0"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R1206",
+          "R25,R26,R27",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018015",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J1K",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206J1K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "40007ce9489c4e29a1dfd5f837e7f050"
+          }
+        ],
+        [
+          "60kΩ",
+          1,
+          "R1206",
+          "R28",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1711754",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "MCA12060D6002BP500",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MCA12060D6002BP500",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "b0b7e990de764caf8584f7583e12d78f"
+          }
+        ],
+        [
+          "0,5Ω",
+          1,
+          "R1206",
+          "R29",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "TL3330AF130QG",
+          1,
+          "SW-SMD_E-SWITCH_TL3330",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2886885",
+            "Manufacturer": "E-Switch",
+            "Manufacturer Part": "TL3330AF130QG",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TL3330AF130QG",
+            "puuid": "2de3fb28212944ad8880b1b8c2b4daf9",
+            "uuid": "73fdb543c46d4c03ad4f80eaa2d8090a"
+          }
+        ],
+        [
+          "ME3116",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICRONE(南京微盟)",
+            "Manufacturer Part": "ME3116AM6G",
+            "Supplier Part": "C97643",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ME3116",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "9713ac21b7cb4225bda73ea97cc4f112"
+          }
+        ],
+        [
+          "XL4015E1",
+          1,
+          "TO-263-5_L10.2-W8.9-P1.70-TL",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "XLSEMI(芯龙)",
+            "Manufacturer Part": "XL4015E1",
+            "Supplier Part": "C51661",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL4015E1",
+            "puuid": "75e4ea35310747fdbf6f5a106a646145",
+            "uuid": "29c4b2e35e7942dc87c121dd1a162417"
+          }
+        ],
+        [
+          "220uF",
+          2,
+          "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+          "U3,U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5246590",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "CK220UF16V167RV0142",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CK220UF16V167RV0142",
+            "puuid": "c0a8d5074cd14a40a7baee3704c47035",
+            "uuid": "036d31863f33447992834fe638cf54eb"
+          }
+        ],
+        [
+          "S8050W",
+          2,
+          "SOT-323-3_L2.1-W1.3-P1.30-LS2.3-BR",
+          "U5,U8",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5186011",
+            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "S8050W",
+            "spiceSymbolName": "S8050W",
+            "puuid": "85260114ff064255957ef9b75542e900",
+            "uuid": "7f496d3baf1a4c81aa7c48a417fb6537"
+          }
+        ],
+        [
+          "XKT-3169",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Supplier": "",
+            "Manufacturer": "MAXIM",
+            "Manufacturer Part": "XKT-3169",
+            "Supplier Part": "C7266",
+            "Contributor": "drashtipandya2020",
+            "spiceSymbolName": "XKT-3169",
+            "puuid": "4dc437a13ff942509ba1f9081ba65acb",
+            "uuid": "21d5238030ba4b98ac21e88e60c941ee"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U7",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Manufacturer Part": "CH340C",
+            "Supplier Part": "C84681",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CH340C",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ],
+        [
+          "2.4GHz",
+          1,
+          "WIRELM-SMD_ESP32-S",
+          "U9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C277944",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "ESP32-S",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP32-S",
+            "puuid": "35c7d6b10af34f27be24ebc957e217b4",
+            "uuid": "e051b43b21f0466e82abb31659b907b8"
+          }
+        ],
+        [
+          "IP2326",
+          1,
+          "VQFN-24_L4.0-W4.0-P0.50-BL-EP2.5",
+          "U10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832094",
+            "Manufacturer": "INJOINIC(英集芯)",
+            "Manufacturer Part": "IP2326",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "IP2326",
+            "puuid": "d56def05a535450289530ba9f929e422",
+            "uuid": "559223beb08e4712ba38c9470631f079"
+          }
+        ],
+        [
+          "FSUSB42MUX",
+          1,
+          "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "FSUSB42MUX",
+            "Supplier Part": "C11355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FSUSB42MUX",
+            "puuid": "118a205096a1444195e08feff716c648",
+            "uuid": "21ee6254ec54409c9db9631c3ab28ef3"
+          }
+        ],
+        [
+          "AOD423",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.60-LS10.0-BR-CW",
+          "U12",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3281246",
+            "Manufacturer": "AOS",
+            "Manufacturer Part": "AOD423",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AOD423",
+            "puuid": "41c6327f983847c29ee3164a233f5d07",
+            "uuid": "f64f5f8ac19f4c2eb42724f2429236b0"
+          }
+        ],
+        [
+          "Header-Male-2.54-3x8",
+          1,
+          "HDR-TH-3X8P-P2.54-V",
+          "J1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "chenzheyi",
+            "subpart_no": "1",
+            "spiceSymbolName": "Header-Male-2.54-3x8",
+            "puuid": "06986f39f5e84b35be18e3f04b3e736d",
+            "uuid": "709eb6f3ac6c44c4a572e9eccf3524ad"
+          }
+        ]
+      ],
+      "updateTime": 1729412435,
+      "createTime": 1725482986,
+      "histories": [],
+      "created_at": "2024-09-04 22:49:46",
+      "updated_at": "2024-10-20 10:20:35"
+    },
+    {
+      "uuid": "8626b87a12ed158da0e1634bc66ccdf1",
+      "puuid": "2c6a892651be11b216feb82cb1927c87",
+      "title": "rapoukBoardv4",
+      "filename": "rapoukBoardv4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 18,
+        "8b0b0bcdaf8c42b885e54cd52eac6ccd": 1,
+        "9c2e341229ae4533b2f5474588d61518": 1,
+        "b7243d11a5f04fb7894887aaa3569585": 1,
+        "b8f382af9ffa49298291ad3b54ad49dc": 1,
+        "7cd658f2e48a497082072229f1995925": 1,
+        "646e2ea081b34d259d08ee89ce9bde75": 1,
+        "2e8cff09df1248c88697730a78751347": 1,
+        "33ed77bd14374d9fbb31d9e147c44d66": 4,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 24,
+        "2de3fb28212944ad8880b1b8c2b4daf9": 1,
+        "9a066f903e65476fa74739d5e9b0ceb9": 1,
+        "75e4ea35310747fdbf6f5a106a646145": 1,
+        "c0a8d5074cd14a40a7baee3704c47035": 2,
+        "85260114ff064255957ef9b75542e900": 2,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
+        "d56def05a535450289530ba9f929e422": 1,
+        "41c6327f983847c29ee3164a233f5d07": 1,
+        "06986f39f5e84b35be18e3f04b3e736d": 1,
+        "5a0ce90cf3154830bb548fe503629da9": 1,
+        "64af707456d34cf39d1a0601b70f344d": 1,
+        "8c6e314244ab45698a8121f617535563": 1,
+        "9b10394c9873438eba74d1215d2660cd": 1,
+        "3981f18ab3cf41639f7acd28ccfe9b50": 1,
+        "e159c602257f4302a4fba0154e9ceeae": 1,
+        "1bcd905c81ab4cd8b1a8b5d33626f448": 1,
+        "b998eff7edd64c23807c76100779cf71": 1
+      },
+      "BOM": [],
+      "updateTime": 1728308208,
+      "createTime": 1725791605,
+      "histories": [],
+      "created_at": "2024-09-08 12:33:25",
+      "updated_at": "2024-10-07 15:36:48"
+    },
+    {
+      "uuid": "98997632c613f88775ac6427ae9ad713",
+      "puuid": "2c6a892651be11b216feb82cb1927c87",
+      "title": "rapoukBoardv4-auto",
+      "filename": "rapoukBoardv4-auto.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "64af707456d34cf39d1a0601b70f344d": 1,
+        "7bdec8012728462a85919a4d0d033579": 20,
+        "8b0b0bcdaf8c42b885e54cd52eac6ccd": 1,
+        "8c6e314244ab45698a8121f617535563": 1,
+        "b998eff7edd64c23807c76100779cf71": 1,
+        "3981f18ab3cf41639f7acd28ccfe9b50": 1,
+        "e159c602257f4302a4fba0154e9ceeae": 1,
+        "1bcd905c81ab4cd8b1a8b5d33626f448": 1,
+        "9c2e341229ae4533b2f5474588d61518": 1,
+        "b7243d11a5f04fb7894887aaa3569585": 1,
+        "b8f382af9ffa49298291ad3b54ad49dc": 1,
+        "7cd658f2e48a497082072229f1995925": 1,
+        "646e2ea081b34d259d08ee89ce9bde75": 1,
+        "2e8cff09df1248c88697730a78751347": 1,
+        "33ed77bd14374d9fbb31d9e147c44d66": 5,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 28,
+        "2de3fb28212944ad8880b1b8c2b4daf9": 1,
+        "9a066f903e65476fa74739d5e9b0ceb9": 1,
+        "75e4ea35310747fdbf6f5a106a646145": 1,
+        "c0a8d5074cd14a40a7baee3704c47035": 2,
+        "85260114ff064255957ef9b75542e900": 2,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "d56def05a535450289530ba9f929e422": 1,
+        "5a0ce90cf3154830bb548fe503629da9": 1,
+        "41c6327f983847c29ee3164a233f5d07": 1,
+        "06986f39f5e84b35be18e3f04b3e736d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "T-DEAN",
+          1,
+          "T_DEAN",
+          "BT1",
+          {
+            "Contributor": "michalklis",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "T-DEAN",
+            "Manufacturer Part": "",
+            "puuid": "64af707456d34cf39d1a0601b70f344d",
+            "uuid": "dbbd8ce7ca8a4a2caba2494561606d12"
+          }
+        ],
+        [
+          "470nF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C282872",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R474K500FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R474K500FT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "5d68724eb9944220a43ed4fa2077c1af"
+          }
+        ],
+        [
+          "10uF",
+          8,
+          "C1206",
+          "C2,C3,C6,C7,C12,C14,C18,C20",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C380364",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R106K250HT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R106K250HT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "98209bacd16f49e8be295226ca1e31f3"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TAIYO YUDEN(太诱)",
+            "Manufacturer Part": "TMK316B7106KL-TD",
+            "Supplier Part": "C92831",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TMK316B7106KL-TD",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "73e2761621cc4df3af1523b245848ad6"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C8,C21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2319128",
+            "Manufacturer": "Knowles(楼氏)",
+            "Manufacturer Part": "1206Y1000104KXR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206Y1000104KXR",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "b65a3a47e9be4d9687e469e9e7a75ca9"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C1206",
+          "C9,C10,C13,C15",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "IHHEC(禾伸堂)",
+            "Manufacturer Part": "C1206X104K451T",
+            "Supplier Part": "C106025",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104K451T",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a94cff73094b4f21aba8ca710082e1ac"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4747968",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "RST10UF16V013",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "RST10UF16V013",
+            "puuid": "8b0b0bcdaf8c42b885e54cd52eac6ccd",
+            "uuid": "e4d65ad0b7984c33ace9a6bd2df7ac64"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C444887",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Manufacturer Part": "CL31X226KQHNNNE",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CL31X226KQHNNNE",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "94d3247b71af47aab33e394f66eb5b88"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2253379",
+            "Manufacturer": "KEMET(基美)",
+            "Manufacturer Part": "C1206X104J1RECAUTO7210",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104J1RECAUTO7210",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "d22acca175744549a24a1b3accd62521"
+          }
+        ],
+        [
+          "PH-6P立贴",
+          1,
+          "CONN-SMD_6P-P2.0-L14.0-W5.4",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C64659",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-6P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-6P立贴",
+            "puuid": "8c6e314244ab45698a8121f617535563",
+            "uuid": "6f76c7a28b14461bbe37ab2acfa5dd59"
+          }
+        ],
+        [
+          "PH-4P立贴",
+          1,
+          "CONN-SMD_PH2.0-4P",
+          "CN2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67258",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-4P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-4P立贴",
+            "puuid": "b998eff7edd64c23807c76100779cf71",
+            "uuid": "86b4b4a775084ed2b7cf7ffdf7e657ff"
+          }
+        ],
+        [
+          "XH2.54-3AB",
+          1,
+          "CONN-SMD_3P-P2.54_XH2.54-3AB",
+          "CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146126",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-3AB",
+            "puuid": "3981f18ab3cf41639f7acd28ccfe9b50",
+            "uuid": "a4789408d9904d868969eb7092e523c2"
+          }
+        ],
+        [
+          "XH2.54-2AB",
+          1,
+          "CONN-SMD_2P-P2.54_XH2.54-2AB",
+          "CN4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146125",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-2P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-2AB",
+            "puuid": "e159c602257f4302a4fba0154e9ceeae",
+            "uuid": "9e8c78d9c4b14d148984d644b34e71f9"
+          }
+        ],
+        [
+          "2.0-3P",
+          1,
+          "CONN-SMD_3P-LT",
+          "CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146054",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.0-3P",
+            "puuid": "1bcd905c81ab4cd8b1a8b5d33626f448",
+            "uuid": "d815de75d08648aab985300fea0889c7"
+          }
+        ],
+        [
+          "SS54C",
+          1,
+          "SMC_L7.5-W5.8-LS8.3-RD",
+          "D1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C330398",
+            "Manufacturer": "LGE(鲁光)",
+            "Manufacturer Part": "SS54",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS54C",
+            "puuid": "9c2e341229ae4533b2f5474588d61518",
+            "uuid": "b30110200edc44fbb6506ebe04e63f96"
+          }
+        ],
+        [
+          "SS34-A",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-RD",
+          "D2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143201",
+            "Manufacturer": "FMS(美丽微)",
+            "Manufacturer Part": "SS34-A",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS34-A",
+            "puuid": "b7243d11a5f04fb7894887aaa3569585",
+            "uuid": "a6c2b90d75ca46a094b21d53f481d0f4"
+          }
+        ],
+        [
+          "10uH",
+          1,
+          "IND-SMD_L5.8-W5.2_CD54",
+          "L1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492291",
+            "Manufacturer": "YJYCOIN(益嘉源)",
+            "Manufacturer Part": "CD54YP0504-100M",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD54YP0504-100M",
+            "puuid": "b8f382af9ffa49298291ad3b54ad49dc",
+            "uuid": "f7aa7b1628f64dc2a638a8696a4f2fde"
+          }
+        ],
+        [
+          "SINC1313-470M L470 SMD",
+          1,
+          "SINC1313",
+          "L2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "https://vi.aliexpress.com/item/1005006932666277.html?spm=a2g0o.productlist.main.1.240cENmjENmj9N&algo_pvid=bf29db7b-fa88-44d8-ba6d-a49f370a463e&algo_exp_id=bf29db7b-fa88-44d8-ba6d-a49f370a463e-0&pdp_npi=4%40dis%21USD%215.23%214.60%21%21%2137.50%2133.00%21%40210313e917158827587508967e9ebd%2112000038772414878%21sea%21CZ%210%21AB&curPageLogUid=HUxgkZ86eIhu&utparam-url=scene%3Asearch%7Cquery_from%3A",
+            "Contributor": "romansuk05",
+            "spiceSymbolName": "SINC1313-470M L470 SMD",
+            "Package Display": "No",
+            "puuid": "7cd658f2e48a497082072229f1995925",
+            "uuid": "e47eee9eb5f64ad896ba4c0b4a608385"
+          }
+        ],
+        [
+          "ESP32-S32MB",
+          1,
+          "WIFIM-SMD_ESP32-S32MB",
+          "L3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2764096",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "ESP32-S32Mb",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP32-S32MB",
+            "puuid": "646e2ea081b34d259d08ee89ce9bde75",
+            "uuid": "2ddf906ec196450981bf1d0a9fc5ecf4"
+          }
+        ],
+        [
+          "2.2uH",
+          1,
+          "IND-SMD_L5.8-W5.2",
+          "L4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C501730",
+            "Manufacturer": "Me-TECH(美台高科)",
+            "Manufacturer Part": "CD54-2R2M-T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD54-2R2M-T",
+            "puuid": "2e8cff09df1248c88697730a78751347",
+            "uuid": "ed776abb0e534e55b463190d933cdb60"
+          }
+        ],
+        [
+          "ŽLUTÁ",
+          2,
+          "LED1206-R-RD_RED",
+          "LED1,LED3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ZELENÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ČERVENÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "MODRÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "1.2MΩ",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C325657",
+            "Manufacturer": "Tyohm(幸亚电阻)",
+            "Manufacturer Part": "RMC06031.2M1%N",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RMC06031.2M1%N",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "683b557107be49ac8c741ab92cf9da4d"
+          }
+        ],
+        [
+          "3kΩ",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C881253",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206J3K00P05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206J3K00P05Z",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "430cdabad2374b3e82c64978386237de"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "RT1206FRD0715KL",
+            "Supplier Part": "C136874",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RT1206FRD0715KL",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "9d092e1bc0644f5e925540446ee3eafc"
+          }
+        ],
+        [
+          "510Ω",
+          3,
+          "R1206",
+          "R4,R18,R21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352061",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F510RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F510RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "c34879f081844a54a373f02ec794bafa"
+          }
+        ],
+        [
+          "100Ω",
+          2,
+          "R1206",
+          "R5,R15",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017190",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F100R",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206F100R",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5b5458a781b54b9296157e79a52d23d3"
+          }
+        ],
+        [
+          "10kΩ",
+          7,
+          "R1206",
+          "R6,R14,R16,R17,R19,R29,R31",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "20kΩ",
+          1,
+          "R1206",
+          "R7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C429423",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206F20KP05",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206F20KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e6161cb146cb425f827ae2db8d19d653"
+          }
+        ],
+        [
+          "4.7kΩ",
+          1,
+          "R1206",
+          "R8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C242482",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW12064K70FKEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW12064K70FKEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "0aeb0d539457499f8b48de1b1d7e183b"
+          }
+        ],
+        [
+          "6.34kΩ",
+          1,
+          "R1206",
+          "R9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C323116",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "RS-06K6341FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RS-06K6341FT",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "fd7f05d45c6d41af82a1d1364958e736"
+          }
+        ],
+        [
+          "2kΩ",
+          1,
+          "R1206",
+          "R10",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "RALEC(旺诠)",
+            "Manufacturer Part": "RTT06202JTP",
+            "Supplier Part": "C104689",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RTT06202JTP",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "275f0373c39545b4a65bd202cf6061ab"
+          }
+        ],
+        [
+          "5.1kΩ",
+          3,
+          "R0603",
+          "R11,R12,R30",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5123614",
+            "Manufacturer": "Milliohm(毫欧)",
+            "Manufacturer Part": "HoARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HOARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fe559452da914b2db11750a03a6dfe59"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "R1206",
+          "R13",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C176233",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "QR1206F100KP05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "QR1206F100KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "43a46b023c5a4e599c00cbf4e645bd41"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R1206",
+          "R20",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C328408",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F100RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F100RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "bca333e11ff34d5c9b1bc0fb173147bb"
+          }
+        ],
+        [
+          "470Ω",
+          2,
+          "R1206",
+          "R22,R32",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844237",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW1206470RJNEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW1206470RJNEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ab7b68288ece4bd681edbb5f84113855"
+          }
+        ],
+        [
+          "82kΩ",
+          1,
+          "R1206",
+          "R23",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352030",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F82K0K9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F82K0K9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "1d8c0dfc1fd94679964b0dc5d1847bb0"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R1206",
+          "R24,R25,R26",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018015",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J1K",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206J1K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "40007ce9489c4e29a1dfd5f837e7f050"
+          }
+        ],
+        [
+          "60kΩ",
+          1,
+          "R1206",
+          "R27",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1711754",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "MCA12060D6002BP500",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MCA12060D6002BP500",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "b0b7e990de764caf8584f7583e12d78f"
+          }
+        ],
+        [
+          "0,5Ω",
+          1,
+          "R1206",
+          "R28",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "TL3330AF130QG",
+          1,
+          "SW-SMD_E-SWITCH_TL3330",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2886885",
+            "Manufacturer": "E-Switch",
+            "Manufacturer Part": "TL3330AF130QG",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TL3330AF130QG",
+            "puuid": "2de3fb28212944ad8880b1b8c2b4daf9",
+            "uuid": "73fdb543c46d4c03ad4f80eaa2d8090a"
+          }
+        ],
+        [
+          "ME3116",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICRONE(南京微盟)",
+            "Manufacturer Part": "ME3116AM6G",
+            "Supplier Part": "C97643",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ME3116",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "9713ac21b7cb4225bda73ea97cc4f112"
+          }
+        ],
+        [
+          "XL4015E1",
+          1,
+          "TO-263-5_L10.2-W8.9-P1.70-TL",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "XLSEMI(芯龙)",
+            "Manufacturer Part": "XL4015E1",
+            "Supplier Part": "C51661",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL4015E1",
+            "puuid": "75e4ea35310747fdbf6f5a106a646145",
+            "uuid": "29c4b2e35e7942dc87c121dd1a162417"
+          }
+        ],
+        [
+          "220uF",
+          2,
+          "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+          "U3,U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5246590",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "CK220UF16V167RV0142",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CK220UF16V167RV0142",
+            "puuid": "c0a8d5074cd14a40a7baee3704c47035",
+            "uuid": "036d31863f33447992834fe638cf54eb"
+          }
+        ],
+        [
+          "S8050W",
+          2,
+          "SOT-323-3_L2.1-W1.3-P1.30-LS2.3-BR",
+          "U5,U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5186011",
+            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "S8050W",
+            "spiceSymbolName": "S8050W",
+            "puuid": "85260114ff064255957ef9b75542e900",
+            "uuid": "7f496d3baf1a4c81aa7c48a417fb6537"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Manufacturer Part": "CH340C",
+            "Supplier Part": "C84681",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CH340C",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ],
+        [
+          "LM393LVQDRQ1",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U8",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3039507",
+            "Manufacturer": "TI(德州仪器)",
+            "Manufacturer Part": "LM393LVQDRQ1",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LM393LVQDRQ1",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "1aef068d051f4349a1b2a630dabef161"
+          }
+        ],
+        [
+          "IP2326",
+          1,
+          "VQFN-24_L4.0-W4.0-P0.50-BL-EP2.5",
+          "U10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832094",
+            "Manufacturer": "INJOINIC(英集芯)",
+            "Manufacturer Part": "IP2326",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "IP2326",
+            "puuid": "d56def05a535450289530ba9f929e422",
+            "uuid": "559223beb08e4712ba38c9470631f079"
+          }
+        ],
+        [
+          "FSUSB42UMX",
+          1,
+          "UMLP-10_L1.8-W1.4-P0.40-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "FSUSB42UMX",
+            "Supplier Part": "C11145",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FSUSB42UMX",
+            "puuid": "5a0ce90cf3154830bb548fe503629da9",
+            "uuid": "2d23178273164e538577ef2a1c103234"
+          }
+        ],
+        [
+          "AOD423",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.60-LS10.0-BR-CW",
+          "U12",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3281246",
+            "Manufacturer": "AOS",
+            "Manufacturer Part": "AOD423",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AOD423",
+            "puuid": "41c6327f983847c29ee3164a233f5d07",
+            "uuid": "f64f5f8ac19f4c2eb42724f2429236b0"
+          }
+        ],
+        [
+          "Header-Male-2.54-3x8",
+          1,
+          "HDR-TH-3X8P-P2.54-V",
+          "J1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "chenzheyi",
+            "subpart_no": "1",
+            "spiceSymbolName": "Header-Male-2.54-3x8",
+            "puuid": "06986f39f5e84b35be18e3f04b3e736d",
+            "uuid": "709eb6f3ac6c44c4a572e9eccf3524ad"
+          }
+        ]
+      ],
+      "updateTime": 1725988924,
+      "createTime": 1725988924,
+      "histories": [],
+      "created_at": "2024-09-10 19:22:04",
+      "updated_at": "2024-09-10 19:22:04"
+    },
+    {
+      "uuid": "290fa908149bed8298ddbc6b73ffbfa6",
+      "puuid": "2c6a892651be11b216feb82cb1927c87",
+      "title": "rapoukBoardv5",
+      "filename": "rapoukBoardv5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8b0b0bcdaf8c42b885e54cd52eac6ccd": 1,
+        "7bdec8012728462a85919a4d0d033579": 24,
+        "718e3754a2c943f99a79c8b7b843b718": 1,
+        "ae0fd5c4cb5f453cae311c4d33625180": 1,
+        "35c7d6b10af34f27be24ebc957e217b4": 1,
+        "d56def05a535450289530ba9f929e422": 1,
+        "118a205096a1444195e08feff716c648": 1,
+        "41c6327f983847c29ee3164a233f5d07": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 29,
+        "4dc437a13ff942509ba1f9081ba65acb": 1,
+        "b7243d11a5f04fb7894887aaa3569585": 3,
+        "9c2e341229ae4533b2f5474588d61518": 2,
+        "33ed77bd14374d9fbb31d9e147c44d66": 5,
+        "e159c602257f4302a4fba0154e9ceeae": 1,
+        "9b10394c9873438eba74d1215d2660cd": 1,
+        "b998eff7edd64c23807c76100779cf71": 1,
+        "1bcd905c81ab4cd8b1a8b5d33626f448": 1,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
+        "85260114ff064255957ef9b75542e900": 2,
+        "7cd658f2e48a497082072229f1995925": 1,
+        "2de3fb28212944ad8880b1b8c2b4daf9": 1,
+        "9a066f903e65476fa74739d5e9b0ceb9": 1,
+        "75e4ea35310747fdbf6f5a106a646145": 1,
+        "c0a8d5074cd14a40a7baee3704c47035": 2,
+        "06986f39f5e84b35be18e3f04b3e736d": 1,
+        "3981f18ab3cf41639f7acd28ccfe9b50": 1,
+        "8c6e314244ab45698a8121f617535563": 1,
+        "64af707456d34cf39d1a0601b70f344d": 1,
+        "b8f382af9ffa49298291ad3b54ad49dc": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "T-DEAN",
+          1,
+          "T_DEAN",
+          "BT1",
+          {
+            "Contributor": "michalklis",
+            "Supplier Part": "",
+            "Supplier": "",
+            "spiceSymbolName": "T-DEAN",
+            "Manufacturer Part": "",
+            "puuid": "64af707456d34cf39d1a0601b70f344d",
+            "uuid": "dbbd8ce7ca8a4a2caba2494561606d12"
+          }
+        ],
+        [
+          "470nF",
+          1,
+          "C1206",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C282872",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R474K500FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R474K500FT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "5d68724eb9944220a43ed4fa2077c1af"
+          }
+        ],
+        [
+          "10uF",
+          8,
+          "C1206",
+          "C2,C3,C6,C7,C12,C14,C18,C20",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C380364",
+            "Manufacturer": "CCTC(三环)",
+            "Manufacturer Part": "TCC1206X7R106K250HT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TCC1206X7R106K250HT",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "98209bacd16f49e8be295226ca1e31f3"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C1206",
+          "C4,C5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TAIYO YUDEN(太诱)",
+            "Manufacturer Part": "TMK316B7106KL-TD",
+            "Supplier Part": "C92831",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TMK316B7106KL-TD",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "73e2761621cc4df3af1523b245848ad6"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C8,C21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2319128",
+            "Manufacturer": "Knowles(楼氏)",
+            "Manufacturer Part": "1206Y1000104KXR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206Y1000104KXR",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "b65a3a47e9be4d9687e469e9e7a75ca9"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "CAP-SMD_BD4.0-L4.3-W4.3-FD",
+          "C11",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C4747968",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "RST10UF16V013",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "RST10UF16V013",
+            "puuid": "8b0b0bcdaf8c42b885e54cd52eac6ccd",
+            "uuid": "e4d65ad0b7984c33ace9a6bd2df7ac64"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C1206",
+          "C13,C15",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "IHHEC(禾伸堂)",
+            "Manufacturer Part": "C1206X104K451T",
+            "Supplier Part": "C106025",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104K451T",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "a94cff73094b4f21aba8ca710082e1ac"
+          }
+        ],
+        [
+          "22uF",
+          2,
+          "C1206",
+          "C16,C17",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C444887",
+            "Manufacturer": "SAMSUNG(三星)",
+            "Manufacturer Part": "CL31X226KQHNNNE",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CL31X226KQHNNNE",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "94d3247b71af47aab33e394f66eb5b88"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C19",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2253379",
+            "Manufacturer": "KEMET(基美)",
+            "Manufacturer Part": "C1206X104J1RECAUTO7210",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "C1206X104J1RECAUTO7210",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "d22acca175744549a24a1b3accd62521"
+          }
+        ],
+        [
+          "PH-6P立贴",
+          1,
+          "CONN-SMD_6P-P2.0-L14.0-W5.4",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C64659",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-6P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-6P立贴",
+            "puuid": "8c6e314244ab45698a8121f617535563",
+            "uuid": "6f76c7a28b14461bbe37ab2acfa5dd59"
+          }
+        ],
+        [
+          "PH2.0-2P",
+          1,
+          "CONN-SMD_PH2.0-1X2PW",
+          "CN2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-2P立贴",
+            "Supplier Part": "C64658",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH2.0-2P",
+            "puuid": "9b10394c9873438eba74d1215d2660cd",
+            "uuid": "c72632bfd50440d5bd2de8d060f7672e"
+          }
+        ],
+        [
+          "XH2.54-3AB",
+          1,
+          "CONN-SMD_3P-P2.54_XH2.54-3AB",
+          "CN3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146126",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-3AB",
+            "puuid": "3981f18ab3cf41639f7acd28ccfe9b50",
+            "uuid": "a4789408d9904d868969eb7092e523c2"
+          }
+        ],
+        [
+          "XH2.54-2AB",
+          1,
+          "CONN-SMD_2P-P2.54_XH2.54-2AB",
+          "CN4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146125",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-2P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XH2.54-2AB",
+            "puuid": "e159c602257f4302a4fba0154e9ceeae",
+            "uuid": "9e8c78d9c4b14d148984d644b34e71f9"
+          }
+        ],
+        [
+          "2.0-3P",
+          1,
+          "CONN-SMD_3P-LT",
+          "CN5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146054",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-3P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.0-3P",
+            "puuid": "1bcd905c81ab4cd8b1a8b5d33626f448",
+            "uuid": "d815de75d08648aab985300fea0889c7"
+          }
+        ],
+        [
+          "PH-4P立贴",
+          1,
+          "CONN-SMD_PH2.0-4P",
+          "CN6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C67258",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "PH-4P立贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PH-4P立贴",
+            "puuid": "b998eff7edd64c23807c76100779cf71",
+            "uuid": "86b4b4a775084ed2b7cf7ffdf7e657ff"
+          }
+        ],
+        [
+          "SS54C",
+          1,
+          "SMC_L7.5-W5.8-LS8.3-RD",
+          "D1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C330398",
+            "Manufacturer": "LGE(鲁光)",
+            "Manufacturer Part": "SS54",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS54C",
+            "puuid": "9c2e341229ae4533b2f5474588d61518",
+            "uuid": "b30110200edc44fbb6506ebe04e63f96"
+          }
+        ],
+        [
+          "SS34-A",
+          1,
+          "SMA_L4.3-W2.6-LS5.2-RD",
+          "D2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143201",
+            "Manufacturer": "FMS(美丽微)",
+            "Manufacturer Part": "SS34-A",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SS34-A",
+            "puuid": "b7243d11a5f04fb7894887aaa3569585",
+            "uuid": "a6c2b90d75ca46a094b21d53f481d0f4"
+          }
+        ],
+        [
+          "10uH",
+          1,
+          "IND-SMD_L5.8-W5.2_CD54",
+          "L1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C492291",
+            "Manufacturer": "YJYCOIN(益嘉源)",
+            "Manufacturer Part": "CD54YP0504-100M",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD54YP0504-100M",
+            "puuid": "b8f382af9ffa49298291ad3b54ad49dc",
+            "uuid": "f7aa7b1628f64dc2a638a8696a4f2fde"
+          }
+        ],
+        [
+          "SINC1313-470M L470 SMD",
+          1,
+          "SINC1313",
+          "L2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "https://vi.aliexpress.com/item/1005006932666277.html?spm=a2g0o.productlist.main.1.240cENmjENmj9N&algo_pvid=bf29db7b-fa88-44d8-ba6d-a49f370a463e&algo_exp_id=bf29db7b-fa88-44d8-ba6d-a49f370a463e-0&pdp_npi=4%40dis%21USD%215.23%214.60%21%21%2137.50%2133.00%21%40210313e917158827587508967e9ebd%2112000038772414878%21sea%21CZ%210%21AB&curPageLogUid=HUxgkZ86eIhu&utparam-url=scene%3Asearch%7Cquery_from%3A",
+            "Contributor": "romansuk05",
+            "spiceSymbolName": "SINC1313-470M L470 SMD",
+            "Package Display": "No",
+            "puuid": "7cd658f2e48a497082072229f1995925",
+            "uuid": "e47eee9eb5f64ad896ba4c0b4a608385"
+          }
+        ],
+        [
+          "ESP32-S32MB",
+          1,
+          "WIFIM-SMD_ESP32-S32MB",
+          "L3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2764096",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "ESP32-S32Mb",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP32-S32MB",
+            "puuid": "646e2ea081b34d259d08ee89ce9bde75",
+            "uuid": "2ddf906ec196450981bf1d0a9fc5ecf4"
+          }
+        ],
+        [
+          "2.2uH",
+          1,
+          "IND-SMD_L5.8-W5.2",
+          "L4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C501730",
+            "Manufacturer": "Me-TECH(美台高科)",
+            "Manufacturer Part": "CD54-2R2M-T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CD54-2R2M-T",
+            "puuid": "2e8cff09df1248c88697730a78751347",
+            "uuid": "ed776abb0e534e55b463190d933cdb60"
+          }
+        ],
+        [
+          "ŽLUTÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ZELENÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "ČERVENÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "MODRÁ",
+          1,
+          "LED1206-R-RD_RED",
+          "LED5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375458",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6C1206URAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6C1206URAC1UDA",
+            "puuid": "33ed77bd14374d9fbb31d9e147c44d66",
+            "uuid": "f8b7bf71855149b0a4aff55a1da9ad4f"
+          }
+        ],
+        [
+          "1.2MΩ",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C325657",
+            "Manufacturer": "Tyohm(幸亚电阻)",
+            "Manufacturer Part": "RMC06031.2M1%N",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RMC06031.2M1%N",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "683b557107be49ac8c741ab92cf9da4d"
+          }
+        ],
+        [
+          "3kΩ",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C881253",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206J3K00P05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206J3K00P05Z",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "430cdabad2374b3e82c64978386237de"
+          }
+        ],
+        [
+          "15kΩ",
+          1,
+          "R1206",
+          "R3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Manufacturer": "YAGEO(国巨)",
+            "Manufacturer Part": "RT1206FRD0715KL",
+            "Supplier Part": "C136874",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RT1206FRD0715KL",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "9d092e1bc0644f5e925540446ee3eafc"
+          }
+        ],
+        [
+          "510Ω",
+          2,
+          "R1206",
+          "R4,R21",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352061",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F510RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F510RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "c34879f081844a54a373f02ec794bafa"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R1206",
+          "R5",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017190",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F100R",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206F100R",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "5b5458a781b54b9296157e79a52d23d3"
+          }
+        ],
+        [
+          "10kΩ",
+          5,
+          "R1206",
+          "R6,R14,R19,R29,R31",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "20kΩ",
+          1,
+          "R1206",
+          "R7",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C429423",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "CR1206F20KP05",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206F20KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "e6161cb146cb425f827ae2db8d19d653"
+          }
+        ],
+        [
+          "4.7kΩ",
+          1,
+          "R1206",
+          "R8",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C242482",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW12064K70FKEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW12064K70FKEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "0aeb0d539457499f8b48de1b1d7e183b"
+          }
+        ],
+        [
+          "6.34kΩ",
+          1,
+          "R1206",
+          "R9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C323116",
+            "Manufacturer": "FH(风华)",
+            "Manufacturer Part": "RS-06K6341FT",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RS-06K6341FT",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "fd7f05d45c6d41af82a1d1364958e736"
+          }
+        ],
+        [
+          "2kΩ",
+          1,
+          "R1206",
+          "R10",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "RALEC(旺诠)",
+            "Manufacturer Part": "RTT06202JTP",
+            "Supplier Part": "C104689",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RTT06202JTP",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "275f0373c39545b4a65bd202cf6061ab"
+          }
+        ],
+        [
+          "5.1kΩ",
+          3,
+          "R0603",
+          "R11,R12,R30",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5123614",
+            "Manufacturer": "Milliohm(毫欧)",
+            "Manufacturer Part": "HoARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "HOARG0603-1/10W-5.1KR-0.1%-TCR25",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "fe559452da914b2db11750a03a6dfe59"
+          }
+        ],
+        [
+          "100kΩ",
+          1,
+          "R1206",
+          "R13",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C176233",
+            "Manufacturer": "EVER OHMS(天二科技)",
+            "Manufacturer Part": "QR1206F100KP05Z",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "QR1206F100KP05",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "43a46b023c5a4e599c00cbf4e645bd41"
+          }
+        ],
+        [
+          "100Ω",
+          1,
+          "R1206",
+          "R20",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C328408",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F100RK9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F100RK9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "bca333e11ff34d5c9b1bc0fb173147bb"
+          }
+        ],
+        [
+          "470Ω",
+          2,
+          "R1206",
+          "R22,R32",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C844237",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "CRCW1206470RJNEA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CRCW1206470RJNEA",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "ab7b68288ece4bd681edbb5f84113855"
+          }
+        ],
+        [
+          "82kΩ",
+          1,
+          "R1206",
+          "R23",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352030",
+            "Manufacturer": "RESI(开步睿思)",
+            "Manufacturer Part": "AECR1206F82K0K9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F82K0K9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "1d8c0dfc1fd94679964b0dc5d1847bb0"
+          }
+        ],
+        [
+          "1kΩ",
+          3,
+          "R1206",
+          "R24,R25,R26",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3018015",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206J1K",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SCR1206J1K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "40007ce9489c4e29a1dfd5f837e7f050"
+          }
+        ],
+        [
+          "60kΩ",
+          1,
+          "R1206",
+          "R27",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1711754",
+            "Manufacturer": "VISHAY(威世)",
+            "Manufacturer Part": "MCA12060D6002BP500",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "MCA12060D6002BP500",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "b0b7e990de764caf8584f7583e12d78f"
+          }
+        ],
+        [
+          "0,5Ω",
+          1,
+          "R1206",
+          "R28",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "TL3330AF130QG",
+          1,
+          "SW-SMD_E-SWITCH_TL3330",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2886885",
+            "Manufacturer": "E-Switch",
+            "Manufacturer Part": "TL3330AF130QG",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TL3330AF130QG",
+            "puuid": "2de3fb28212944ad8880b1b8c2b4daf9",
+            "uuid": "73fdb543c46d4c03ad4f80eaa2d8090a"
+          }
+        ],
+        [
+          "ME3116",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "MICRONE(南京微盟)",
+            "Manufacturer Part": "ME3116AM6G",
+            "Supplier Part": "C97643",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ME3116",
+            "puuid": "9a066f903e65476fa74739d5e9b0ceb9",
+            "uuid": "9713ac21b7cb4225bda73ea97cc4f112"
+          }
+        ],
+        [
+          "XL4015E1",
+          1,
+          "TO-263-5_L10.2-W8.9-P1.70-TL",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "XLSEMI(芯龙)",
+            "Manufacturer Part": "XL4015E1",
+            "Supplier Part": "C51661",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "XL4015E1",
+            "puuid": "75e4ea35310747fdbf6f5a106a646145",
+            "uuid": "29c4b2e35e7942dc87c121dd1a162417"
+          }
+        ],
+        [
+          "220uF",
+          2,
+          "CAP-SMD_BD6.3-L6.6-W6.6-FD",
+          "U3,U4",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5246590",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "CK220UF16V167RV0142",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "CK220UF16V167RV0142",
+            "puuid": "c0a8d5074cd14a40a7baee3704c47035",
+            "uuid": "036d31863f33447992834fe638cf54eb"
+          }
+        ],
+        [
+          "S8050W",
+          2,
+          "SOT-323-3_L2.1-W1.3-P1.30-LS2.3-BR",
+          "U5,U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5186011",
+            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "S8050W",
+            "spiceSymbolName": "S8050W",
+            "puuid": "85260114ff064255957ef9b75542e900",
+            "uuid": "7f496d3baf1a4c81aa7c48a417fb6537"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Manufacturer Part": "CH340C",
+            "Supplier Part": "C84681",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CH340C",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ],
+        [
+          "FSUSB42MUX",
+          1,
+          "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL",
+          "U8",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "onsemi(安森美)",
+            "Manufacturer Part": "FSUSB42MUX",
+            "Supplier Part": "C11355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "FSUSB42MUX",
+            "puuid": "118a205096a1444195e08feff716c648",
+            "uuid": "21ee6254ec54409c9db9631c3ab28ef3"
+          }
+        ],
+        [
+          "IP2326",
+          1,
+          "VQFN-24_L4.0-W4.0-P0.50-BL-EP2.5",
+          "U10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2832094",
+            "Manufacturer": "INJOINIC(英集芯)",
+            "Manufacturer Part": "IP2326",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "IP2326",
+            "puuid": "d56def05a535450289530ba9f929e422",
+            "uuid": "559223beb08e4712ba38c9470631f079"
+          }
+        ],
+        [
+          "AOD423",
+          1,
+          "TO-252-2_L6.6-W6.1-P4.60-LS10.0-BR-CW",
+          "U12",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3281246",
+            "Manufacturer": "AOS",
+            "Manufacturer Part": "AOD423",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AOD423",
+            "puuid": "41c6327f983847c29ee3164a233f5d07",
+            "uuid": "f64f5f8ac19f4c2eb42724f2429236b0"
+          }
+        ],
+        [
+          "Header-Male-2.54-3x8",
+          1,
+          "HDR-TH-3X8P-P2.54-V",
+          "J1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "chenzheyi",
+            "subpart_no": "1",
+            "spiceSymbolName": "Header-Male-2.54-3x8",
+            "puuid": "06986f39f5e84b35be18e3f04b3e736d",
+            "uuid": "709eb6f3ac6c44c4a572e9eccf3524ad"
+          }
+        ]
+      ],
+      "updateTime": 1729415321,
+      "createTime": 1728308223,
+      "histories": [],
+      "created_at": "2024-10-07 15:37:03",
+      "updated_at": "2024-10-20 11:08:41"
+    }
+  ],
+  "sort": [],
+  "title": "05",
+  "foldername": "05",
+  "schfilename": "05.json",
+  "schfilemtime": 1729412435553
+}

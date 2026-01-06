@@ -1,0 +1,306 @@
+{
+  "uuid": "2a535a9642acdccaf35cacb722383fd1",
+  "path": "Offline/test",
+  "name": "test",
+  "content": "",
+  "created_at": "2024-04-29 23:21:32",
+  "updated_at": "2024-05-12 18:10:49",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8b455cffab85911e9074527a732e299d",
+      "title": "Měnič",
+      "description": "",
+      "docType": "1",
+      "master": "d465359a3f0765b701da0b1f838d8d3a",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc": 1,
+        "b65a3a47e9be4d9687e469e9e7a75ca9": 1,
+        "21f8f80a3f7c3c2b00b33f71a31ff6ef": 2,
+        "5daa0987dd4346dbbff3f017eca6ecc3": 1,
+        "ef0de2165b8043f28a0669a2f5df7c7e": 2,
+        "7f496d3baf1a4c81aa7c48a417fb6537": 2,
+        "6d35890b17a94aa08042b9c14cad25d9": 3,
+        "71358c349b5e4a1ab763b997c77692a1": 2,
+        "73fdb543c46d4c03ad4f80eaa2d8090a": 1,
+        "e3f4aa1ad5d2452fbf91099d04154563": 1,
+        "88385779379c42ffa37150c4b1a94a3b": 1,
+        "d7fac8b2214941d79a6b89bff8aaa92f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nF",
+          1,
+          "C1206",
+          "C14",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2319128",
+            "Manufacturer": "Knowles(楼氏)",
+            "Manufacturer Part": "1206Y1000104KXR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206Y1000104KXR",
+            "puuid": "7bdec8012728462a85919a4d0d033579",
+            "uuid": "b65a3a47e9be4d9687e469e9e7a75ca9"
+          }
+        ],
+        [
+          "2.54-6P",
+          1,
+          "CONN-SMD_2.54-6P",
+          "CN1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C146122",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "XH-6P卧贴",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-6P",
+            "puuid": "7e62023c535246d9b1a92b62d8236237",
+            "uuid": "e3f4aa1ad5d2452fbf91099d04154563"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x3",
+          2,
+          "HDR-TH_3P-P2.54-V-M-1",
+          "H1,H2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOOMELE(博穆精密)",
+            "Manufacturer Part": "2.54-1*3P针",
+            "Supplier Part": "C49257",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "Header-Male-2.54_1x3",
+            "puuid": "7e70b923819e4f3bb9fdeaf4abdca9d3",
+            "uuid": "21f8f80a3f7c3c2b00b33f71a31ff6ef"
+          }
+        ],
+        [
+          "2.4GHz",
+          1,
+          "WIRELM-SMD_ESP32-S",
+          "L4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2991923",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "ESP32-S(16MB)",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ESP32-S(16MB)",
+            "puuid": "35c7d6b10af34f27be24ebc957e217b4",
+            "uuid": "5daa0987dd4346dbbff3f017eca6ecc3"
+          }
+        ],
+        [
+          "E6CC1206QBAC1UDA",
+          2,
+          "LED1206-RD_BLUE-GH_E6CC1206QBAC1UDA",
+          "LED1,LED2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C375563",
+            "Manufacturer": "ekinglux(亿晶源)",
+            "Manufacturer Part": "E6CC1206QBAC1UDA",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "E6CC1206QBAC1UDA",
+            "puuid": "44a508e960d64dd8ba56c484050f130f",
+            "uuid": "ef0de2165b8043f28a0669a2f5df7c7e"
+          }
+        ],
+        [
+          "1kΩ",
+          2,
+          "R1206",
+          "R1,R10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C205045",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "CR1206-FX-1001ELF",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CR1206-FX-1001ELF",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "71358c349b5e4a1ab763b997c77692a1"
+          }
+        ],
+        [
+          "22kΩ",
+          1,
+          "R1206",
+          "R2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C352116",
+            "Manufacturer": "RESI(开步睿思）",
+            "Manufacturer Part": "AECR1206F22K0K9",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AECR1206F22K0K9",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "d7fac8b2214941d79a6b89bff8aaa92f"
+          }
+        ],
+        [
+          "10kΩ",
+          3,
+          "R1206",
+          "R11,R15,R16",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C3017025",
+            "Manufacturer": "VO(翔胜)",
+            "Manufacturer Part": "SCR1206F10K",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "SCR1206F10K",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "6d35890b17a94aa08042b9c14cad25d9"
+          }
+        ],
+        [
+          "TL3330AF130QG",
+          1,
+          "SW-SMD_E-SWITCH_TL3330",
+          "SW1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2886885",
+            "Manufacturer": "E-Switch",
+            "Manufacturer Part": "TL3330AF130QG",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TL3330AF130QG",
+            "puuid": "2de3fb28212944ad8880b1b8c2b4daf9",
+            "uuid": "73fdb543c46d4c03ad4f80eaa2d8090a"
+          }
+        ],
+        [
+          "5kΩ",
+          1,
+          "R1206",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C4194063",
+            "Manufacturer": "Ohmite",
+            "Manufacturer Part": "HVF1206T5001FE",
+            "spiceSymbolName": "HVF1206T5001FE",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "88385779379c42ffa37150c4b1a94a3b"
+          }
+        ],
+        [
+          "S8050W",
+          2,
+          "SOT-323-3_L2.1-W1.3-P1.30-LS2.3-BR",
+          "U3,U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5186011",
+            "Manufacturer": "Slkor(萨科微)",
+            "Manufacturer Part": "S8050W",
+            "spiceSymbolName": "S8050W",
+            "puuid": "85260114ff064255957ef9b75542e900",
+            "uuid": "7f496d3baf1a4c81aa7c48a417fb6537"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "WCH(南京沁恒)",
+            "Manufacturer Part": "CH340C",
+            "Supplier Part": "C84681",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CH340C",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ]
+      ],
+      "updateTime": 1715530249,
+      "createTime": 1714425692,
+      "histories": [],
+      "created_at": "2024-04-29 23:21:32",
+      "updated_at": "2024-05-12 18:10:49"
+    },
+    {
+      "uuid": "f95feccf2c119b608341af8ce3380182",
+      "puuid": "2a535a9642acdccaf35cacb722383fd1",
+      "title": "PCB_test",
+      "filename": "PCB_test.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 1,
+        "7e62023c535246d9b1a92b62d8236237": 1,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 2,
+        "44a508e960d64dd8ba56c484050f130f": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 10,
+        "2de3fb28212944ad8880b1b8c2b4daf9": 2,
+        "85260114ff064255957ef9b75542e900": 2,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1,
+        "35c7d6b10af34f27be24ebc957e217b4": 1
+      },
+      "BOM": [],
+      "updateTime": 1715007064,
+      "createTime": 1715007064,
+      "histories": [],
+      "created_at": "2024-05-06 16:51:04",
+      "updated_at": "2024-05-06 16:51:04"
+    },
+    {
+      "uuid": "bddf9342f00c87851b329632bf2767cb",
+      "puuid": "2a535a9642acdccaf35cacb722383fd1",
+      "title": "PCB_test_2",
+      "filename": "PCB_test_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7bdec8012728462a85919a4d0d033579": 1,
+        "7e62023c535246d9b1a92b62d8236237": 1,
+        "7e70b923819e4f3bb9fdeaf4abdca9d3": 2,
+        "35c7d6b10af34f27be24ebc957e217b4": 1,
+        "44a508e960d64dd8ba56c484050f130f": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 9,
+        "2de3fb28212944ad8880b1b8c2b4daf9": 1,
+        "85260114ff064255957ef9b75542e900": 2,
+        "bf1b7b0953d842979fbb5acfa9df7d18": 1
+      },
+      "BOM": [],
+      "updateTime": 1715159986,
+      "createTime": 1715073365,
+      "histories": [],
+      "created_at": "2024-05-07 11:16:05",
+      "updated_at": "2024-05-08 11:19:46"
+    }
+  ],
+  "sort": [],
+  "title": "test",
+  "foldername": "test",
+  "schfilename": "test.json",
+  "schfilemtime": 1715530249339
+}
