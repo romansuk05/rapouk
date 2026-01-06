@@ -1,7 +1,8 @@
 <h1>Project Rapouk</h1>
 
-<p>Hello, this project I made on highschool as final project. Everything is in czech language, so use some translator for this xD</p>
-<p>This depo is unsorted so GL&HF with finding something xD</p>
+<p>Hello, this project I made on highschool as final project. Rapouk is quadruped robot. I made it from aluminium on DIY mill, ESP32 and custom PCB. There should be everything which you should need for assembling your Rapouk. Evethought everything is in czech language, so use some translator for this xD</p>
+<p>Also there are my thesis with everything that I done in this project</p>
+<p>This depo is unsorted af so GL&HF with finding something xD</p>
 <p>It is completly open source, so create another versions of this spider</p>
 <p>There are some interesting links with this project:</p>
 <p>https://www.youtube.com/watch?v=WBYnp2NAGiE</p>
